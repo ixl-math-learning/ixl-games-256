@@ -243,7 +243,7 @@ function registerBIOS() {
 
 function downloadROM(gamename) {
     writeRedTemporaryText("Downloading \"" + games[gamename] + ".\"");
-    downloadFile("https://cdn.jsdelivr.net/gh/ayvacs/gba.js.org/binaries/" + gamename + ".gba", registerROM);
+    downloadFile("https://cdn.jsdelivr.net/gh/ixl-math-learning/ixl-mirror-114/m/gh/ayvacs/gba.js.org/HEAD/binaries/" + gamename + ".gba", registerROM);
 }
 
 function registerROM() {
